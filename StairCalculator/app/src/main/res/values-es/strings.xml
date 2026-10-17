@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de escaleras</string>
+    <string name="tab_calc">Cálculo</string>
+    <string name="tab_history">Historial</string>
+    <string name="tab_settings">Ajustes</string>
+
+    <string name="type_straight">Recta</string>
+    <string name="type_l">En L</string>
+    <string name="type_u">En U</string>
+
+    <string name="f_type">Tipo de escalera</string>
+    <string name="f_height">Altura total</string>
+    <string name="f_run">Longitud disponible</string>
+    <string name="f_tread">Huella (opcional)</string>
+    <string name="f_riser">Contrahuella (opcional)</string>
+    <string name="f_width">Longitud del peldaño (ancho de la escalera)</string>
+
+    <string name="sec_3d">Modelo 3D</string>
+    <string name="hint_3d">Gira con el dedo, pellizca para hacer zoom. H — altura, L — longitud, W — ancho, h — contrahuella, b — huella.</string>
+    <string name="sec_results">Resultados</string>
+    <string name="sec_stringer">Zanca cerrada (marcado)</string>
+
+    <string name="r_risers">Contrahuellas (peldaños)</string>
+    <string name="r_treads">Huellas</string>
+    <string name="r_riser_real">Contrahuella real h</string>
+    <string name="r_tread">Huella b</string>
+    <string name="r_angle">Ángulo de inclinación</string>
+    <string name="r_footprint">Dimensión en planta</string>
+    <string name="r_stringer">Longitud de la zanca</string>
+    <string name="r_comfort">Confort 2h+b</string>
+    <string name="r_handrail">Pasamanos (longitud)</string>
+
+    <string name="flight_n">Tramo %1$d</string>
+    <string name="st_marks_title">Alojamientos de los peldaños: coordenadas desde la esquina inferior de la zanca</string>
+    <string name="st_row">Peldaño %1$d: x = %2$s, y = %3$s</string>
+
+    <string name="adv_fits">Cabe, margen %1$s</string>
+    <string name="adv_not_fits">No cabe: se necesitan %1$s, disponibles %2$s</string>
+    <string name="adv_comfort_ok">Escalera cómoda: 2h+b = %1$s (norma 600–640 mm)</string>
+    <string name="adv_comfort_bad">2h+b = %1$s, la norma es 600–640 mm</string>
+    <string name="adv_riser_high">Contrahuella superior a 190 mm: demasiado alta</string>
+    <string name="adv_riser_low">Contrahuella inferior a 150 mm: demasiado baja</string>
+    <string name="adv_tread_short">Huella inferior a 250 mm: demasiado estrecha</string>
+    <string name="adv_angle_steep">Ángulo superior a 42°: muy empinada</string>
+    <string name="adv_angle_shallow">Ángulo inferior a 23°: muy tendida</string>
+    <string name="adv_small">Las escaleras en L/U necesitan al menos 3 contrahuellas: se calculó como recta</string>
+
+    <string name="export_pdf">Exportar a PDF</string>
+    <string name="share_title">Compartir cálculo</string>
+    <string name="export_error">No se pudo crear el PDF</string>
+    <string name="invalid_input">Introduce altura y longitud: números mayores que cero</string>
+    <string name="pdf_title">Cálculo de escalera</string>
+    <string name="pdf_params">Datos de entrada</string>
+
+    <string name="history_empty">El historial está vacío. Los cálculos se guardan automáticamente.</string>
+    <string name="hist_title">%1$s · H %2$s</string>
+    <string name="hist_sub">%1$s · %2$d pel. · %3$s°</string>
+    <string name="delete">Eliminar</string>
+
+    <string name="set_language">Idioma</string>
+    <string name="set_theme">Tema</string>
+    <string name="theme_system">Del sistema</string>
+    <string name="theme_light">Clara</string>
+    <string name="theme_dark">Oscura</string>
+    <string name="set_units">Unidades de longitud</string>
+    <string name="set_history">Historial de cálculos</string>
+    <string name="set_clear">Borrar historial</string>
+    <string name="clear_title">¿Borrar el historial?</string>
+    <string name="clear_text">Se eliminarán todos los cálculos guardados. Esta acción no se puede deshacer.</string>
+    <string name="clear_confirm">Borrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="history_cleared">Historial borrado</string>
+    <string name="set_about">Acerca de</string>
+    <string name="author_line">Autor: %1$s</string>
+    <string name="version_line">Versión %1$s</string>
+    <string name="calc_button">Calcular</string>
+    <string name="adv_tread_adjusted">Huella ajustada a la longitud indicada: era %1$s, ahora %2$s</string>
+    <string name="f_thickness">Grosor del peldaño (opcional)</string>
+    <string name="r_gap">Espacio libre entre peldaños</string>
+    <string name="r_dev">Desviación (altura / longitud)</string>
+    <string name="sec_tips">Consejos</string>
+    <string name="tip_steep">Ángulo de %1$s: muy empinada. Para unos 35° hace falta una longitud de %2$s (ahora %3$s).</string>
+    <string name="tip_shallow">Ángulo de %1$s: muy tendida. Puedes reducir la longitud a %2$s para obtener unos 30°.</string>
+    <string name="tip_riser_high">La contrahuella de %1$s es demasiado alta. Añade un peldaño: la altura pasará a %2$s y la longitud aumentará unos %3$s.</string>
+    <string name="tip_riser_low">La contrahuella de %1$s es demasiado baja. Quita un peldaño: la altura pasará a %2$s y la longitud disminuirá unos %3$s.</string>
+    <string name="tip_comfort">Paso 2h+b = %1$s (norma 600–640 mm). Para un paso cómodo con una contrahuella de %2$s, la huella debería ser de unos %3$s.</string>
+    <string name="tip_gap">El espacio libre entre peldaños es de %1$s. Comprueba los requisitos para contrahuellas abiertas en tu obra y, si hace falta, añade un listón o una contrahuella cerrada.</string>
+    <string name="tip_width">La longitud del peldaño (ancho de la escalera) de %1$s está fuera del rango habitual de 70–100 cm.</string>
+    <string name="tip_landing">Descanso de %1$s × %2$s a una altura de %3$s. El ancho de los tramos coincide con el del descanso.</string>
+    <string name="tip_auto_tread">La huella se ha calculado automáticamente: %1$s, para obtener el paso más cómodo. Puedes indicar tu propia huella o contrahuella.</string>
+    <string name="tip_ok">Todo correcto: ángulo de %1$s, paso 2h+b = %2$s.</string>
+    <string name="f_run2">Longitud del segundo tramo (opcional)</string>
+</resources>

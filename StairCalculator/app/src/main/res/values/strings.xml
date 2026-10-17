@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калькулятор сходів</string>
+    <string name="tab_calc">Розрахунок</string>
+    <string name="tab_history">Історія</string>
+    <string name="tab_settings">Налаштування</string>
+
+    <string name="type_straight">Пряма</string>
+    <string name="type_l">Г-подібна</string>
+    <string name="type_u">П-подібна</string>
+
+    <string name="f_type">Тип сходів</string>
+    <string name="f_height">Висота підйому</string>
+    <string name="f_run">Доступна довжина</string>
+    <string name="f_tread">Глибина сходинки (необов\'язково)</string>
+    <string name="f_riser">Висота сходинки (необов\'язково)</string>
+    <string name="f_width">Довжина сходинки (ширина сходів)</string>
+
+    <string name="sec_3d">3D-модель</string>
+    <string name="hint_3d">Крути пальцем, щипком — масштаб. H — висота, L — довжина, W — ширина, h — підйом, b — проступ.</string>
+    <string name="sec_results">Результати</string>
+    <string name="sec_stringer">Закритий косоур (розмітка)</string>
+
+    <string name="r_risers">Підйомів (сходинок)</string>
+    <string name="r_treads">Проступів</string>
+    <string name="r_riser_real">Реальний підйом h</string>
+    <string name="r_tread">Проступ b</string>
+    <string name="r_angle">Кут нахилу</string>
+    <string name="r_footprint">Габарит у плані</string>
+    <string name="r_stringer">Довжина косоура</string>
+    <string name="r_comfort">Комфорт 2h+b</string>
+    <string name="r_handrail">Поручні (довжина)</string>
+
+    <string name="flight_n">Марш %1$d</string>
+    <string name="st_marks_title">Гнізда під сходинки: координати від нижнього кута косоура</string>
+    <string name="st_row">Сходинка %1$d: x = %2$s, y = %3$s</string>
+
+    <string name="adv_fits">Вміщається, запас %1$s</string>
+    <string name="adv_not_fits">Не вміщається: потрібно %1$s, доступно %2$s</string>
+    <string name="adv_comfort_ok">Зручні сходи: 2h+b = %1$s (норма 600–640 мм)</string>
+    <string name="adv_comfort_bad">2h+b = %1$s, норма 600–640 мм</string>
+    <string name="adv_riser_high">Підйом понад 190 мм — задалеко для ноги</string>
+    <string name="adv_riser_low">Підйом менше 150 мм — занизько, можна спіткнутись</string>
+    <string name="adv_tread_short">Проступ менше 250 мм — занадто вузько</string>
+    <string name="adv_angle_steep">Кут понад 42° — стрімко</string>
+    <string name="adv_angle_shallow">Кут менше 23° — дуже полого</string>
+    <string name="adv_small">Для Г/П-подібних потрібно щонайменше 3 підйоми — розраховано як пряму</string>
+
+    <string name="export_pdf">Експорт у PDF</string>
+    <string name="share_title">Поділитися розрахунком</string>
+    <string name="export_error">Не вдалося створити PDF</string>
+    <string name="invalid_input">Введіть висоту і довжину — числа більші за нуль</string>
+    <string name="pdf_title">Розрахунок сходів</string>
+    <string name="pdf_params">Вхідні дані</string>
+
+    <string name="history_empty">Історія порожня. Розрахунки зберігаються автоматично.</string>
+    <string name="hist_title">%1$s · H %2$s</string>
+    <string name="hist_sub">%1$s · %2$d сх. · %3$s°</string>
+    <string name="delete">Видалити</string>
+
+    <string name="set_language">Мова</string>
+    <string name="set_theme">Тема</string>
+    <string name="theme_system">Системна</string>
+    <string name="theme_light">Світла</string>
+    <string name="theme_dark">Темна</string>
+    <string name="set_units">Одиниці довжини</string>
+    <string name="set_history">Історія розрахунків</string>
+    <string name="set_clear">Очистити історію</string>
+    <string name="clear_title">Очистити історію?</string>
+    <string name="clear_text">Усі збережені розрахунки буде видалено без можливості відновлення.</string>
+    <string name="clear_confirm">Очистити</string>
+    <string name="cancel">Скасувати</string>
+    <string name="history_cleared">Історію очищено</string>
+    <string name="set_about">Про застосунок</string>
+    <string name="author_line">Автор: %1$s</string>
+    <string name="version_line">Версія %1$s</string>
+    <string name="calc_button">Розрахувати</string>
+    <string name="adv_tread_adjusted">Проступ підібрано під вашу довжину: було %1$s, стало %2$s</string>
+    <string name="f_thickness">Товщина сходинки (необов\'язково)</string>
+    <string name="r_gap">Просвіт між сходинками</string>
+    <string name="r_dev">Відхилення (висота / довжина)</string>
+    <string name="sec_tips">Підказки</string>
+    <string name="tip_steep">Кут %1$s — стрімко. Для кута близько 35° потрібна довжина %2$s (зараз %3$s).</string>
+    <string name="tip_shallow">Кут %1$s — дуже полого. Довжину можна скоротити до %2$s, тоді кут буде близько 30°.</string>
+    <string name="tip_riser_high">Висота сходинки %1$s завелика. Додай одну сходинку: висота стане %2$s, а довжина збільшиться приблизно на %3$s.</string>
+    <string name="tip_riser_low">Висота сходинки %1$s замала. Прибери одну сходинку: висота стане %2$s, а довжина зменшиться приблизно на %3$s.</string>
+    <string name="tip_comfort">Крок 2h+b = %1$s (норма 600–640 мм). Для зручного кроку при висоті сходинки %2$s глибина має бути близько %3$s.</string>
+    <string name="tip_gap">Просвіт між сходинками %1$s. Перевір вимоги до відкритих підйомів на вашому об\'єкті, за потреби додай планку або закритий підйом.</string>
+    <string name="tip_width">Довжина сходинки (ширина сходів) %1$s — поза типовим діапазоном 70–100 см.</string>
+    <string name="tip_landing">Площадка %1$s × %2$s на висоті %3$s. Ширина маршів дорівнює ширині площадки.</string>
+    <string name="tip_auto_tread">Глибину сходинки підібрано автоматично: %1$s — так виходить найзручніший крок. Можна вказати свою глибину або висоту сходинки.</string>
+    <string name="tip_ok">Усе в нормі: кут %1$s, крок 2h+b = %2$s.</string>
+    <string name="f_run2">Довжина другого напрямку (необов\'язково)</string>
+</resources>
